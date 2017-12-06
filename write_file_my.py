@@ -1,11 +1,11 @@
 import random
 
 s = "\n"
-"""LIST of random numbers"""
+"""list of random numbers"""
 numbers = random.sample(range(90), 10)
-"""Sort numbers"""
+"""sort numbers"""
 numbers.sort()
-"""List in STR"""
+"""list in STR"""
 y = s.join(str(e) for e in numbers)
 filename = 'my_numbers.txt'
 
