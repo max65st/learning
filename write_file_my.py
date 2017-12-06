@@ -2,7 +2,7 @@ import random
 
 s = "\n"
 """list of random numbers"""
-numbers = random.sample(range(90), 10)
+numbers = random.sample(range(90), 50)
 """sort numbers"""
 numbers.sort()
 """list in STR"""
