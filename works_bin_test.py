@@ -1,4 +1,4 @@
-digit_sought = 55
+digit_sought = 2
 numbers = [2, 4, 5, 9, 10, 15, 55]
 
 def binary_search(sorted_numbers, number_sought):
