@@ -1,4 +1,4 @@
-digit_sought = 2
+digit_sought = 55
 numbers = [2, 4, 5, 9, 10, 15, 55]
 
 def binary_search(sorted_numbers, number_sought):
@@ -17,8 +17,8 @@ def binary_search(sorted_numbers, number_sought):
 		elif sorted_numbers[middle] > number_sought:
 			high = middle 
 		elif sorted_numbers[middle] < number_sought:
+#The following 4 lines solved the problem with the endless loops
 			if low == middle:
-#The following line solved the problem with the endless loops
 				low = middle + 1
 			else:
 				low = middle 
